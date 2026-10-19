@@ -1,0 +1,10 @@
+{
+  "description": "Automates project setup and deployment previews for designers and developers, ensuring critical issues are flagged and verified before launch.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

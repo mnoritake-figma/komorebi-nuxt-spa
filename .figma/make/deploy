@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+pnpm generate
+[[ -d ".output/public" ]] || {
+  echo "Expected build output at .output/public" >&2
+  exit 1
+}
+figma make deploy --build-dir ".output/public"
